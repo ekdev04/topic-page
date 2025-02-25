@@ -28,7 +28,7 @@ svg{
 
 /*--
 document styles --*/
-nav{
+nav, footer{
     background-color: #444;
     color: antiquewhite;
     display: flex;
