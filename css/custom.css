@@ -5,6 +5,7 @@ body{
     font-size: 1.6rem;
     /*--need to add font family from reset min--*/
     line-height: 1.15;
+    background-color: white;
 }
 h1 {font-size: 3.6rem;}
 h2 {font-size: 2.8rem;}
@@ -36,10 +37,6 @@ nav, footer{
     align-items: center;
     padding: 1rem 2rem;
 }
-
-nav div{
-    display: flex;
-}
 .logo {
     align-items: center;
     gap: 2rem;
@@ -52,6 +49,18 @@ nav img {
     width:auto;
 }
 
+.grid-container-one{
+    padding: 1rem;
+    margin: 1rem;
+    
+}
+.grid-container-two{
+    padding: 1rem;
+    margin: 1rem;
+}
+
+
+
 /*-- Media Queries --*/
 
 @media screen and (max-width: 768px) {
@@ -60,3 +69,4 @@ nav img {
         gap: 2rem;
     }
 }
+
