@@ -49,11 +49,27 @@ nav img {
     width:auto;
 }
 
-.grid-container-one{
+.grid-container-one {
+    display: flex; 
     padding: 1rem;
     margin: 1rem;
-    
+    gap: 2rem; 
 }
+
+.grid-item {
+    flex: 1; 
+}    flex: 1 1 50%; 
+
+.grid-item.two {
+    flex: 1 1 50%; 
+}
+
+.picture img {
+    width: 100%;
+    height: auto;
+}
+
+
 .grid-container-two{
     padding: 1rem;
     margin: 1rem;
