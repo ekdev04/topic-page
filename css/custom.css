@@ -58,7 +58,7 @@ nav img {
 
 .grid-item {
     flex: 1; 
-}    flex: 1 1 50%; 
+}   
 
 .grid-item.two {
     flex: 1 1 50%; 
